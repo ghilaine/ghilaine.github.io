@@ -1,0 +1,79 @@
+
+img {
+    height: auto !important;
+    border: 0 none;
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+/**
+.navbar-brand {
+    background-image: url("images/logo.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    height: 40px;
+    text-indent: -9999px;
+    width: 309px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1208px) {
+    .navbar-brand {
+        background-image: url("images/logo-med.png");
+        background-position: 0 8px;
+        background-repeat: no-repeat;
+        height: 40px;
+        text-indent: -9999px;
+        width: 185px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        background-image: url("images/logo.png");
+        background-position: 0 8px;
+        background-repeat: no-repeat;
+        height: 40px;
+        text-indent: -9999px;
+        width: 40px;
+    }
+    .navbar-nav > li > a {
+        padding: 14px 10px 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+        background-image: url("images/logo.png");
+        background-position: 0 8px;
+        background-repeat: no-repeat;
+        height: 40px;
+        text-indent: -9999px;
+        width: 309px;
+    }
+}
+
+@media (max-width: 396px) {
+	.navbar-brand {
+        background-image: url("images/logo-med.png");
+        background-position: 0 8px;
+        background-repeat: no-repeat;
+        height: 40px;
+        text-indent: -9999px;
+        width: 185px;
+    }
+}
+*/
+
+h2, h3 {
+ margin-top: 35px;
+}
+
+.navbar-right {
+    font-size: 0px;
+}
+
+.navbar-right > li > a > i {
+    font-size: 16px;
+}
