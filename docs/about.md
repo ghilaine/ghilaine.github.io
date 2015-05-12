@@ -23,5 +23,5 @@ I understand the needs of the business and articulate them to the technical team
 I execute decisions after systematic planning and collaboration with the end user. I ensure that projects are designed with clear user requirements and can be tested throughout the development lifecycle. Backwards compatibility and stability are my primary considerations.
 
 
-Contact us via email : info `at` ghilaine `dot` co `dot` uk
+Contact us via email : help `at` ghilaine `dot` co `dot` uk
 
