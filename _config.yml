@@ -1,0 +1,43 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.ghilaine.co.uk
+title: Ghilaine & Co
+email: help@ghilaine.co.uk
+author: Lewin Chan
+description: > # "Helping tech focused companies lay strong 
+  foundations to profitably scale."
+companyName: Ghilaine & Co Ltd
+companyNumber: 09363343
+companyOffice: 3 South Drive, Reading RG2 7DP
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: none
+exclude: ["CNAME", "Gemfile"]
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: linkedin
+    icon: linkedin
+    url: https://uk.linkedin.com/in/ghilainechan
+  - title: blog
+    icon: medium
+    url: https://medium.com/@ghilaine
+  - title: subscribe
+    icon: inbox
+    url: http://eepurl.com/bt0xdT
+  
+
+contact:
+  - title: email
+    icon: envelope
+    url: mailto:help@ghilaine.co.uk
