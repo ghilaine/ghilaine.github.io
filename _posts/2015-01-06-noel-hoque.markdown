@@ -2,6 +2,7 @@
 img: clothing.jpg
 category: Testimonials
 title: Noel Hoque - Fashion Entrepeneur
+published: false
 ---
 
 {: .text-justify}

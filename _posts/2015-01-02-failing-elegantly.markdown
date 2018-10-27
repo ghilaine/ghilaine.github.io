@@ -2,6 +2,7 @@
 img: leaning-tower.jpg
 category: Services
 title: Failing Elegantly
+published: false
 ---
 
 Continual improvement

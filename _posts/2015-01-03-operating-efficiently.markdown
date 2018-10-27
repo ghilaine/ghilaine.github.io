@@ -2,6 +2,7 @@
 img: dont-just-stand-there.jpg
 category: Services
 title: Operating Efficiently
+published: false
 ---
 
 Practical application of strategy
