@@ -66,6 +66,15 @@ h6 {
     font-weight: 400;
 }
 
+.btn-social  {
+/*
+   color: #333;
+   background-color: #fff;
+*/
+   color: white;
+   background-color:rgba(0,0,0,0.6);
+   border-color: #ccc;
+}
 
 @media(max-width:767px) {
     .intro-message {

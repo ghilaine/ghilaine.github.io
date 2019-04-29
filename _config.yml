@@ -19,16 +19,16 @@ companyOffice: 3 South Drive, Reading RG2 7DP
 # Build settings
 markdown: kramdown
 permalink: none
-exclude: ["CNAME", "Gemfile", "Dockerfile", "docker-compose.yml"]
+exclude: ["CNAME", "Gemfile", "Dockerfile", "docker-compose.yml", ".gitignore", "_config_dev.yml"]
 
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
 
-#social:
-#  - title: linkedin
-#    icon: linkedin
-#    url: https://uk.linkedin.com/in/ghilainechan
+social:
+  - title: linkedin
+    icon: linkedin
+    url: https://uk.linkedin.com/in/ghilainechan
 #  - title: blog
 #    icon: medium
 #    url: https://medium.com/order-from-ambiguity

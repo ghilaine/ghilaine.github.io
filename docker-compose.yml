@@ -1,10 +1,10 @@
 version: '3'
 services:
-  adaptris.github.io:
+  ghilaine.github.io:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ghilaine.github.io:latest      
+    image: ghilaine.github.io:latest
     container_name: ghilaine.github.io
     hostname: jekyll
     ports:
