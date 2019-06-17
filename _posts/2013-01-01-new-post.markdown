@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Sometimes you need content"
+comments: false
+tags: [people]
+categories: [people]
+published: true
+description: "Bacon makes everything taste better."
+keywords: ""
+excerpt_separator: <!-- more -->
+---
+
+Hello ghilaine
+
+<!-- more -->
+
+
+* Tenderloin
+* Beef
+
+1. Brisket
+1. Sirloin
+1. Pork Chop
+
+| heading | heading2
+| ------- | --------
+| Brisket | good
+| Vegetables | Bad
