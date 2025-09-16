@@ -1,0 +1,797 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English [default] (https://localizely.com/language-code/en/)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Progress Isn’t Smooth - It Doesn’t Have to Be Chaos.
+    text: >-
+      Helping founders lay strong foundations to profitably scale.
+    button: Let's have a coffee
+    buttonlink: "https://outlook.office.com/bookwithme/user/b07c4d18d54c4b938048200166f33307@ghilaine.co.uk/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mlink"
+
+  services:
+    title: "Services"
+    text: |
+      You're building a vision. I help you build the company to match.<br><br>
+      By embedding into your company, I turn your big idea into smooth delivery, aligning your team,
+      fixing bottlenecks and building the operational foundations your business needs to grow with confidence.
+    section: services
+    list:
+      - title: "Early"
+        icon: fas fa-star-half #find more at https://fontawesome.com/icons
+        desc: |
+          From chaos to clarity, laying the operational foundation to sustainably scale<br/>
+          ##### Foundation & Focus
+          - Turn vision into execution roadmap<br/>
+          - Build simple, repeatable processes<br/>
+          - First KPIs & dashboards<br/>
+          - Basic cash flow tracking<br/>
+          - Hiring & onboarding support<br/>
+          <br>
+          ###### ~0.5 days/week<br>
+          ###### £1.5k/mo<br><br>
+      - title: "Scale"
+        icon: fas fa-chart-line
+        desc: |
+          From growing pains to scalable systems, ensuring your momentum leads to success.<br/>
+          ##### Structure & Scalability
+          - Organisation & processes to scale<br/>
+          - Establish Rhythm of Business<br/>
+          - Budgets, cashflow, forecasting<br/>
+          - Board reporting<br/>
+          - Leadership team & culture development<br/>
+          <br>
+          ###### ~1 day/week<br/>
+          ###### £3k/mo<br/><br>
+      - title: "Growth"
+        icon: fas fa-rocket
+        desc: |
+          From good to great, building the operational backbone that powers your growth.
+          ##### Performance & Expansion
+          - Optimizse org structure<br/>
+          - Growth KPIs & dashboards<br/>
+          - Global ops readiness (compliance, HR, finance)<br/>
+          - Cost optimisation & margin protection<br/>
+          - Due diligence & governance<br/>
+          <br>
+          ###### ~2 days/week
+          ###### £6.5k/mo<br><br>
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Testimonials"
+    section: "testimonials"
+    text: "Faster execution and better delivery across the board"
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Mike Appleby"
+        image: https://media.licdn.com/dms/image/v2/D4E03AQHM7PIsgTqXXA/profile-displayphoto-shrink_200_200/B4EZR1Y6GCGwAY-/0/1737136251691?e=1761177600&v=beta&t=1P0fbhy1PJXpnqwGMNTZsLwuMXQT4OhrCYRooAMgBN0
+        align: left
+        alt:
+        desc: |
+          I feel safer knowing I have Ghilaine in my corner.<br/>
+          Ghilaine has the ability to switch to our needs and requirements, she encourages business growth whilst maintaining a
+          strong ethical code and she understands the needs of both the people and the business.<br/>
+          I highly recommend working with her, it will only add real value. No blurb, no time wasted, just value and support.
+      - title: "Raj"
+        image: https://media.licdn.com/dms/image/v2/C5603AQG5qB7fp1lALQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517243425881?e=1761177600&v=beta&t=XYtjIACR9X9-PzEMIaf6xcbh1rW0NOzSyRbkjFxAyL0
+        alt:
+        desc: |
+          Ghilaine is meticulous, commercially minded and acutely aware of what it takes to get your team to succeed.
+      - title: "Jonathan May"
+        image: https://media.licdn.com/dms/image/v2/C4E03AQHcFtZqliZJWQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1545917724134?e=1761177600&v=beta&t=YPZoumSy2d6pz93potovf7zLL2mZbszBXzBIsstZUQ8
+        desc: |
+          Ghilaine is all the adjectives you value at a senior level - trustworthy, skilled, and a great communicator.<br/>
+          She can turn her hand to almost anything (whilst transparently making clear the areas she feels less able to deliver).<br/>
+          More importantly, she brings out the best in others. I wouldn't hesitate to work with her again; in fact I'd be honoured to have the opportunity to do so.
+      - title: "Marie Krebs"
+        image: https://media.licdn.com/dms/image/v2/D4E03AQG3SPVox0MLRw/profile-displayphoto-scale_200_200/B4EZhiEgwFGYAc-/0/1753992007281?e=1761177600&v=beta&t=H13OfQhXz-jel8VylDbh4DlZTR3H8uzQvhTZ19laBEk
+        desc: |
+          Ghilaine has not only been a great source of knowledge in regards to remote and international teams and processes -
+          she has also been a much needed supportive shoulder.<br/>
+          Ghilaine is accessible, open, kind and thoughtful in her coaching and mentoring approach, and I know no better way to share the
+          knowledge accumulated across years of experience. I recommend her as a consultant, a mentor and a peer!
+      - title: "Nick Ford"
+        image: https://media.licdn.com/dms/image/v2/C4E03AQFmAaO0yUkZNQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1651831663398?e=1761177600&v=beta&t=Vo-j4ME3Pubs6EnUi0dDmwNtrQuhRr-tJpaayA3C7T8
+        desc: >-
+          Ghilaine Chan is a very special person with a unique ability to extract valuable process from the soup of spinning ideas and concepts that I am blessed with in my brain
+      - title: "Kim Page"
+        image: https://media.licdn.com/dms/image/v2/D4E03AQF-X_DoFXcnjA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697971804449?e=1761177600&v=beta&t=YiWNEHlH0evIetTWrHnuowylz_jOVIWoLpJ1VO9mcKQ
+        desc: |
+          Working with Ghilaine is exactly the straightforward and clear input that every startup needs.
+          Ghilaine has consistent and insightful focus on your goals and the processes you operate to achieve them.
+          Ghilaine takes the time to understand what works in my business, for my benefit and I have no hesitation in recommending her. Quick and effective results from an outstanding advisor.
+
+    end:
+
+  about:
+    title: "About Me"
+    section: about
+    text: ""
+    body: |
+      Sustainable growth is what founders want for their business, but that growth you thought would solve your problems has only created more challenges. The consequences of this growth means:
+
+      - EVERYTHING FEELS LIKE IT’S THE  MOST IMPORTANT THING.
+      - More messy and complex fires to put out.
+      - Skill and capacity gaps open up across the team.
+      - What worked before isn't working now; systems built at the start of the journey can't quite handle the strain of the growth.
+
+      My job is to help you control the chaos, get shit done, and fill the gaps as you scale. Traditionally I’d be called a COO or Chief of Staff but I prefer to call myself a professional do-er. I am an enabler of people and strategy.
+
+      I specialise in quickly solving hard problems. I am not fazed by chaos and messy growth, in fact, I relish it. Bring me your big and your boring problems. I thrive in the world of ambiguity. Nothing feels better than extinguishing operational fires and helping incredible founders do incredible things.
+
+      This work can, and does, take a lot of different forms. When I joined a young HealthTech startup that had just received funding, I needed to start from scratch to build a functional team, while simultaneously being the entirety of that team. I solved problems across customer success, data analysis, user research, operations, marketing, recruitment, community building, business reporting, and many other areas. By doing all of the work myself, I was better equipped to hire a great team capable of growing the business.
+
+      When I joined an established startup that was struggling, debt-ridden and loss-making, I coached and mentored an established team to improve delivery quality, collaboration and communication. Using my Accelerated Smooth Collaboration approach, I worked with everyone across the business to shape them into a culture driven, high performing team, who were aligned and ambitious. I managed the product development, speeding up time to release cycles and using data led and user research approaches to identify the important features turning it into a profit-making organisation.
+
+      Similarly, I remotely supported a young Not-for-Profit who ran an accelerator programme to support local Ghanian businesses to become sustainable and register as B-Corps. I supported the CEO as her fCOO for the first 2 years. Her vision included developing the careers of young people, from intern to full programme managers. I translated the vision, values and culture into how the team would collaborate and work together.  I built and supported the scaling of the programme structure and processes, I created, organised and managed the hiring process  as well as training the interviewing team and ultimately hiring my full-time replacement in the local office while providing ongoing mentoring support.
+
+      If any of the above resonates with you, I’m offering a workshop that will help you build an action plan to solve your most pressing problems.  If that goes well, we can choose to work together some more. If it doesn’t go well,  I’ll give you your money back and we’ll go our separate ways.
+
+      Let’s get shit done.
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://linkedin.com/in/ghilainechan
+        icon: "fab fa-linkedin-in"
+
+en-001: #English (World)
+  <<: *DEFAULT_EN
+en-150: #English (Europe)
+  <<: *DEFAULT_EN
+en-AG: #English (Antigua and Barbuda)
+  <<: *DEFAULT_EN
+en-AI: #English (Anguilla)
+  <<: *DEFAULT_EN
+en-AS: #English (American Samoa)
+  <<: *DEFAULT_EN
+en-AT: #English (Austria)
+  <<: *DEFAULT_EN
+en-AU: #English (Australia)
+  <<: *DEFAULT_EN
+en-BB: #English (Barbados)
+  <<: *DEFAULT_EN
+en-BE: #English (Belgium)
+  <<: *DEFAULT_EN
+en-BI: #English (Burundi)
+  <<: *DEFAULT_EN
+en-BM: #English (Bermuda)
+  <<: *DEFAULT_EN
+en-BS: #English (Bahamas)
+  <<: *DEFAULT_EN
+en-BW: #English (Botswana)
+  <<: *DEFAULT_EN
+en-BZ: #English (Belize)
+  <<: *DEFAULT_EN
+en-CA: #English (Canada)
+  <<: *DEFAULT_EN
+en-CC: #English (Cocos (Keeling) Islands)
+  <<: *DEFAULT_EN
+en-CH: #English (Switzerland)
+  <<: *DEFAULT_EN
+en-CK: #English (Cook Islands)
+  <<: *DEFAULT_EN
+en-CM: #English (Cameroon)
+  <<: *DEFAULT_EN
+en-CX: #English (Christmas Island)
+  <<: *DEFAULT_EN
+en-CY: #English (Cyprus)
+  <<: *DEFAULT_EN
+en-DE: #English (Germany)
+  <<: *DEFAULT_EN
+en-DK: #English (Denmark)
+  <<: *DEFAULT_EN
+en-DM: #English (Dominica)
+  <<: *DEFAULT_EN
+en-ER: #English (Eritrea)
+  <<: *DEFAULT_EN
+en-FI: #English (Finland)
+  <<: *DEFAULT_EN
+en-FJ: #English (Fiji)
+  <<: *DEFAULT_EN
+en-FK: #English (Falkland Islands)
+  <<: *DEFAULT_EN
+en-FM: #English (Micronesia)
+  <<: *DEFAULT_EN
+en-GB: #English (United Kingdom)
+  <<: *DEFAULT_EN
+en-GD: #English (Grenada)
+  <<: *DEFAULT_EN
+en-GG: #English (Guernsey)
+  <<: *DEFAULT_EN
+en-GH: #English (Ghana)
+  <<: *DEFAULT_EN
+en-GI: #English (Gibraltar)
+  <<: *DEFAULT_EN
+en-GM: #English (Gambia)
+  <<: *DEFAULT_EN
+en-GU: #English (Guam)
+  <<: *DEFAULT_EN
+en-GY: #English (Guyana)
+  <<: *DEFAULT_EN
+en-HK: #English (Hong Kong)
+  <<: *DEFAULT_EN
+en-IE: #English (Ireland)
+  <<: *DEFAULT_EN
+en-IL: #English (Israel)
+  <<: *DEFAULT_EN
+en-IM: #English (Isle of Man)
+  <<: *DEFAULT_EN
+en-IN: #English (India)
+  <<: *DEFAULT_EN
+en-IO: #English (British Indian Ocean Territory)
+  <<: *DEFAULT_EN
+en-JE: #English (Jersey)
+  <<: *DEFAULT_EN
+en-JM: #English (Jamaica)
+  <<: *DEFAULT_EN
+en-KE: #English (Kenya)
+  <<: *DEFAULT_EN
+en-KI: #English (Kiribati)
+  <<: *DEFAULT_EN
+en-KN: #English (Saint Kitts and Nevis)
+  <<: *DEFAULT_EN
+en-KY: #English (Cayman Islands)
+  <<: *DEFAULT_EN
+en-LC: #English (Saint Lucia)
+  <<: *DEFAULT_EN
+en-LR: #English (Liberia)
+  <<: *DEFAULT_EN
+en-LS: #English (Lesotho)
+  <<: *DEFAULT_EN
+en-MG: #English (Madagascar)
+  <<: *DEFAULT_EN
+en-MH: #English (Marshall Islands)
+  <<: *DEFAULT_EN
+en-MO: #English (Macao)
+  <<: *DEFAULT_EN
+en-MP: #English (Northern Mariana Islands)
+  <<: *DEFAULT_EN
+en-MS: #English (Montserrat)
+  <<: *DEFAULT_EN
+en-MT: #English (Malta)
+  <<: *DEFAULT_EN
+en-MU: #English (Mauritius)
+  <<: *DEFAULT_EN
+en-MW: #English (Malawi)
+  <<: *DEFAULT_EN
+en-MY: #English (Malaysia)
+  <<: *DEFAULT_EN
+en-NA: #English (Namibia)
+  <<: *DEFAULT_EN
+en-NF: #English (Norfolk Island)
+  <<: *DEFAULT_EN
+en-NG: #English (Nigeria)
+  <<: *DEFAULT_EN
+en-NL: #English (Netherlands)
+  <<: *DEFAULT_EN
+en-NR: #English (Nauru)
+  <<: *DEFAULT_EN
+en-NU: #English (Niue)
+  <<: *DEFAULT_EN
+en-NZ: #English (New Zealand)
+  <<: *DEFAULT_EN
+en-PG: #English (Papua New Guinea)
+  <<: *DEFAULT_EN
+en-PH: #English (Philippines)
+  <<: *DEFAULT_EN
+en-PK: #English (Pakistan)
+  <<: *DEFAULT_EN
+en-PN: #English (Pitcairn Islands)
+  <<: *DEFAULT_EN
+en-PR: #English (Puerto Rico)
+  <<: *DEFAULT_EN
+en-PW: #English (Palau)
+  <<: *DEFAULT_EN
+en-RW: #English (Rwanda)
+  <<: *DEFAULT_EN
+en-SB: #English (Solomon Islands)
+  <<: *DEFAULT_EN
+en-SC: #English (Seychelles)
+  <<: *DEFAULT_EN
+en-SD: #English (Sudan)
+  <<: *DEFAULT_EN
+en-SE: #English (Sweden)
+  <<: *DEFAULT_EN
+en-SG: #English (Singapore)
+  <<: *DEFAULT_EN
+en-SH: #English (Saint Helena)
+  <<: *DEFAULT_EN
+en-SI: #English (Slovenia)
+  <<: *DEFAULT_EN
+en-SL: #English (Sierra Leone)
+  <<: *DEFAULT_EN
+en-SS: #English (South Sudan)
+  <<: *DEFAULT_EN
+en-SX: #English (Sint Maarten)
+  <<: *DEFAULT_EN
+en-SZ: #English (Eswatini)
+  <<: *DEFAULT_EN
+en-TC: #English (Turks and Caicos Islands)
+  <<: *DEFAULT_EN
+en-TK: #English (Tokelau)
+  <<: *DEFAULT_EN
+en-TO: #English (Tonga)
+  <<: *DEFAULT_EN
+en-TT: #English (Trinidad and Tobago)
+  <<: *DEFAULT_EN
+en-TV: #English (Tuvalu)
+  <<: *DEFAULT_EN
+en-TZ: #English (Tanzania)
+  <<: *DEFAULT_EN
+en-UG: #English (Uganda)
+  <<: *DEFAULT_EN
+en-UM: #English (United States Minor Outlying Islands)
+  <<: *DEFAULT_EN
+en-US: #English (United States)
+  <<: *DEFAULT_EN
+en-VC: #English (Saint Vincent and the Grenadines)
+  <<: *DEFAULT_EN
+en-VG: #English (British Virgin Islands)
+  <<: *DEFAULT_EN
+en-VI: #English (U.S. Virgin Islands)
+  <<: *DEFAULT_EN
+en-VU: #English (Vanuatu)
+  <<: *DEFAULT_EN
+en-WS: #English (Samoa)
+  <<: *DEFAULT_EN
+en-ZA: #English (South Africa)
+  <<: *DEFAULT_EN
+en-ZM: #English (Zambia)
+  <<: *DEFAULT_EN
+en-ZW: #English (Zimbabwe)
+  <<: *DEFAULT_EN
+
+# Spanish (https://localizely.com/language-code/es/)
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  timeline:
+    title: "Cronología"
+    text: "Lorem ipsum timeline"
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Nuestro Humilde Comienzo"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Una Agencia nace"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "La plantilla Jekyll es creada"
+        year: "2019"
+        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Título"
+        year: "2009-2011"
+        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NUESTRO INCREÍBLE EQUIPO"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+es-419: #Spanish (Latin America and the Caribbean)
+  <<: *DEFAULT_ES
+es-AR: #Spanish (Argentina)
+  <<: *DEFAULT_ES
+es-BO: #Spanish (Bolivia)
+  <<: *DEFAULT_ES
+es-BR: #Spanish (Brazil)
+  <<: *DEFAULT_ES
+es-BZ: #Spanish (Belize)
+  <<: *DEFAULT_ES
+es-CL: #Spanish (Chile)
+  <<: *DEFAULT_ES
+es-CO: #Spanish (Colombia)
+  <<: *DEFAULT_ES
+es-CR: #Spanish (Costa Rica)
+  <<: *DEFAULT_ES
+es-CU: #Spanish (Cuba)
+  <<: *DEFAULT_ES
+es-DO: #Spanish (Dominican Republic)
+  <<: *DEFAULT_ES
+es-EC: #Spanish (Ecuador)
+  <<: *DEFAULT_ES
+es-ES: #Spanish (Spain)
+  <<: *DEFAULT_ES
+es-GQ: #Spanish (Equatorial Guinea)
+  <<: *DEFAULT_ES
+es-GT: #Spanish (Guatemala)
+  <<: *DEFAULT_ES
+es-HN: #Spanish (Honduras)
+  <<: *DEFAULT_ES
+es-MX: #Spanish (Mexico)
+  <<: *DEFAULT_ES
+es-NI: #Spanish (Nicaragua)
+  <<: *DEFAULT_ES
+es-PA: #Spanish (Panama)
+  <<: *DEFAULT_ES
+es-PE: #Spanish (Peru)
+  <<: *DEFAULT_ES
+es-PH: #Spanish (Philippines)
+  <<: *DEFAULT_ES
+es-PR: #Spanish (Puerto Rico)
+  <<: *DEFAULT_ES
+es-PY: #Spanish (Paraguay)
+  <<: *DEFAULT_ES
+es-SV: #Spanish (El Salvador)
+  <<: *DEFAULT_ES
+es-US: #Spanish (United States)
+  <<: *DEFAULT_ES
+es-UY: #Spanish (Uruguay)
+  <<: *DEFAULT_ES
+es-VE: #Spanish (Venezuela)
+  <<: *DEFAULT_ES
+
+# Deutsch (https://localizely.com/language-code/de/)
+# -----------------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen auf unserer Webseite!
+    text: Schön das Sie hier sind!
+    button: Mehr erfahren
+    buttonlink: "#Angebote"
+
+  services:
+    title: "Leistungen"
+    text: "Was wir anbieten."
+    section: Leistungen
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://de.wikipedia.org/wiki/Markdown)"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: Portfolio
+    closebutton: "Schließen"
+
+  timeline:
+    title: "Geschichte"
+    text: "Lorem ipsum timeline"
+    section: Geschichte
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Unsere Anfänge"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Gründung der Firma"
+        year: "März 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Das Jekyll-Thema wurde erstellt"
+        year: "2019"
+        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
+        image: assets/img/timeline/3.jpg
+        alt: Bildbeschreibung
+      - title: "Titel"
+        year: "2009-2011"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte."
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: Ueber
+
+  clients:
+    section: Kunden
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Unser großartiges Team"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: Team
+    people:
+      - name: "Kay Garland"
+        role: "Chef-Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Chef der Werbeabteilung"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Chef-Programmiererin"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Kontakt"
+    text: "Kontaktieren Sie uns."
+    section: Kontakt
+    name: "Name*"
+    name-validation: "Geben Sie einen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+    phone: "Telefonnummer*"
+    phone-validation: "Geben Sie Ihre Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Schreiben Sie etwas..."
+    subject: "Kontakt-Formular Bestätigung"
+    submit: "Nachricht absenden"
+
+  footer:
+    legal: "Datenschutzerklärung"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+de-AT: #German (Austria)
+  <<: *DEFAULT_DE
+de-BE: #German (Belgium)
+  <<: *DEFAULT_DE
+de-CH: #German (Switzerland)
+  <<: *DEFAULT_DE
+de-DE: #German (Germany)
+  <<: *DEFAULT_DE
+de-IT: #German (Italy)
+  <<: *DEFAULT_DE
+de-LI: #German (Liechtenstein)
+  <<: *DEFAULT_DE
+de-LU: #German (Luxembourg)
+  <<: *DEFAULT_DE

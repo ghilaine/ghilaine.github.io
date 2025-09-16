@@ -1,43 +1,42 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
-url: http://www.ghilaine.co.uk
-title: Ghilaine & Co
-email: help@ghilaine.co.uk
-author: Lewin Chan
-description: > # "Helping tech focused companies lay strong
-  foundations to profitably scale."
-companyName: Ghilaine & Co Ltd
-companyNumber: 09363343
-companyOffice: 3 South Drive, Reading RG2 7DP
+# Site settings
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+remote_theme: raviriley/agency-jekyll-theme
 
-# Build settings
+url: "https://ghilaine.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+
+title: ghilaine.co.uk
+email: info@ghilaine.co.uk #this is also the email contact forms will go to
+description: >-
+  Helping tech focused companies lay strong foundations to profitably scale.
+author: Ghilaine Chan
+# logo:     #optional, defaults to site title
+# path: assets\img\clients\creative-market.jpg
+# height: 60 #height in px, defaults to 52px
+
+locale: "en-GB" # See available languages in _data/sitetext.yml
+
+analytics:
+  google: #Google Analytics tracking code here
+
+collections:
+  portfolio:
+
 markdown: kramdown
-permalink: none
-exclude: ["CNAME", "Gemfile", "Dockerfile", "docker-compose.yml", ".gitignore", "_config_dev.yml"]
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: linkedin
-    icon: linkedin
-    url: https://uk.linkedin.com/in/ghilainechan
-#  - title: blog
-#    icon: medium
-#    url: https://medium.com/order-from-ambiguity
-#  - title: subscribe
-#    icon: inbox
-#    url: http://eepurl.com/bt0xdT
-
-
-contact:
-  - title: email
-    icon: envelope
-    url: mailto:help@ghilaine.co.uk
+plugins:
+  - jekyll-remote-theme

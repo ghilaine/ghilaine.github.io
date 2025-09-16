@@ -1,24 +1,49 @@
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <br/><br/>
-              <h2>About Us</h2>
-              <br/>
-                <p>We connect ideas and people to solve complex or difficult problems. We are operational, taking someone’s vision to reality. We are enthusiastic about technology and how it can improve society</p>
-                <p>We understand the needs of the business and articulate them to the technical teams, building R&amp;D teams to scale for growing business with agility in mind as the teams become based around a product not a person.</p>
-              <br/>
-              </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <br/><br/>
-              <h2>Book a Session</h2>
-                <br/>
-                  <p>We will be happy to spend an hour, on a call, helping you focus your energies to be more productive in your business. If you would like a no strings chat, book it here.</p>
-                  <p>
-                  <a href="https://calendly.com/ghilaine/productivity" class="btn btn-default btn-lg"><i class="fa fa-calendar fa-fw"></i> <span class="network-name">Book Now</span></a>
-		  </p>
-                <br/>
-            </div>
-        </div>
-    </section>
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
+      </div>
+    </div>
+	  {%- if site.data.sitetext[site.locale].header.button -%}
+    <div class="row">
+      <div class="col-lg-12 mx-auto text-center">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+      </div>
+    </div>
+	  {%- endif -%}
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}</div>
+      </div>
+    </div>
+	  {%- if site.data.sitetext.header.button -%}
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+      </div>
+    </div>
+	  {%- endif -%}
+  </div>
+</section>
+{% endif %}
+<!-- End About -->
